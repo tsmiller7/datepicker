@@ -76,7 +76,7 @@
             cancelLabel: 'Cancel',
             weekLabel: 'W',
             customRangeLabel: 'Custom Range',
-            daysOfWeek: moment.weekdaysMin(),
+            daysOfWeek: moment.weekdaysShort(),
             monthNames: moment.months(),
             firstDay: moment.localeData().firstDayOfWeek()
         };
